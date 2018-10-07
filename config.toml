@@ -1,0 +1,104 @@
+baseurl = "https://SeungKiLeeSMU.github.io/flowerpot-of-shards/"
+DefaultContentLanguage = "en"
+#DefaultContentLanguage = "ja"
+title = "Flowerpot of Shards"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Flowerpot" # Set a different text for the header on the home page
+  subtitle = "SeungKi Lee"
+#  logo = "img/ic_brightness_6_128_28156.png"
+  favicon = "img/outline_brightness_low_black_18dp.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+  gsce = "003771751846852600792:whfvadxllpc"
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "SeungKi Lee"
+  website = "https://SeungKiLeeSMU.github.io"
+  email = "seungkil@smu.edu"
+  facebook = "Seung Ki Lee"
+  github = "SeungKiLeeSMU"
+  linkedin = "SeungKiLeeSMU"
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "Economics"
+    name = "Economics"
+    weight = 2
+
+[[menu.main]]
+    identifier = "Programming"
+    name = "Programming"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Fiction"
+    name = "Ficiton"
+    weight = 4
+
+[[menu.main]]
+    identifier = "Non-Fiction"
+    name = "Non-Fiction"
+    weight = 5
+
+[[menu.main]]
+    parent = "Economics"
+    name = "Critique on Wage-led Growth"
+    url = "post/2017-03-07-bigimg-sample"
+    weight = 1
+
+[[menu.main]]
+    parent = "Programming"
+    name = "Github Commandline Resource"
+    url = "post/Programming/git-commands"
+    weight = 1
+
+[[menu.main]]
+    parent = "Programming"
+    name = "Modularity and Functional Programming"
+    url = "post/2017-03-05-math-sample"
+    weight = 2
+
+[[menu.main]]
+    parent = "Fiction"
+    name = "Death of Werther and Birth of Modernity"
+    url = "post/2017-03-05-math-sample"
+    weight = 1
+
+[[menu.main]]
+    parent = "Non-Fiction"
+    name = "Howling Abyss Tips"
+    url = "post/2017-03-05-math-sample"
+    weight = 1
