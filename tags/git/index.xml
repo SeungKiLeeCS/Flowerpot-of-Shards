@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Flowerpot of Shards</title>
-    <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/git/</link>
+    <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/git/</link>
     <description>Recent content in Git on Flowerpot of Shards</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>seungkil@smu.edu (SeungKi Lee)</managingEditor>
     <webMaster>seungkil@smu.edu (SeungKi Lee)</webMaster>
     <lastBuildDate>Thu, 23 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git Commandline Resources</title>
-      <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/post/programming/git-commands/</link>
+      <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/programming/git-commands/</link>
       <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
       <author>seungkil@smu.edu (SeungKi Lee)</author>
-      <guid>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/post/programming/git-commands/</guid>
+      <guid>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/programming/git-commands/</guid>
       <description>Git Command Resources Seung Ki Lee This a post about Git Commands. I was supposed to learn it in my sophomore year of college, but I had no clear guidance or tutorial to start off of. My professor showed us one video of his TA using Git on comandline, and that was it. No more resource on Git. We had to submit one assignment via commandline for a grade, and after that almost everyone just used github website for GUI.</description>
     </item>
     

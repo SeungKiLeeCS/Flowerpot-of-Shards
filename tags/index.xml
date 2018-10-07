@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Flowerpot of Shards</title>
-    <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/</link>
+    <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/</link>
     <description>Recent content in Tags on Flowerpot of Shards</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>seungkil@smu.edu (SeungKi Lee)</managingEditor>
     <webMaster>seungkil@smu.edu (SeungKi Lee)</webMaster>
     <lastBuildDate>Thu, 23 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git</title>
-      <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/git/</link>
+      <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/git/</link>
       <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
       <author>seungkil@smu.edu (SeungKi Lee)</author>
-      <guid>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/git/</guid>
+      <guid>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Korean</title>
-      <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/korean/</link>
+      <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/korean/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       <author>seungkil@smu.edu (SeungKi Lee)</author>
-      <guid>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/korean/</guid>
+      <guid>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/korean/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/programming/</link>
+      <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/programming/</link>
       <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
       <author>seungkil@smu.edu (SeungKi Lee)</author>
-      <guid>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/programming/</guid>
+      <guid>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Soccer</title>
-      <link>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/soccer/</link>
+      <link>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/soccer/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       <author>seungkil@smu.edu (SeungKi Lee)</author>
-      <guid>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/soccer/</guid>
+      <guid>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/soccer/</guid>
       <description></description>
     </item>
     
