@@ -3,17 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/economics/gdp-catch-up/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/programming/git-commands/</loc>
     <lastmod>2017-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/non-ficiton/on-ffp/</loc>
+    <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/post/non-fiction/on-ffp/</loc>
     <lastmod>2017-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/economics/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,6 +36,12 @@
   
   <url>
     <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/git/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seungkileesmu.github.io/Flowerpot-of-Shards/tags/growth-theory/</loc>
     <lastmod>2017-11-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

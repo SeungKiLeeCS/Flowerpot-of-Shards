@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>GDP Catch Up</title>
+  <meta property="og:title" content="GDP Catch Up" />
+  <meta name="twitter:title" content="GDP Catch Up" />
+  <meta name="description" content="Exactly How Fast will China grow?">
+  <meta property="og:description" content="Exactly How Fast will China grow?">
+  <meta name="twitter:description" content="Exactly How Fast will China grow?">
+  <meta name="author" content="SeungKi Lee"/>
+  <link href='https://seungkileesmu.github.io/Flowerpot-of-Shards/img/outline_brightness_low_black_18dp.png' rel='icon' type='image/x-icon'/>
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://seungkileesmu.github.io/Flowerpot-of-Shards/post/economics/gdp-catch-up/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Flowerpot of Shards" />
+
+  <meta name="generator" content="Hugo 0.40.1" />
+  <link rel="canonical" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/post/economics/gdp-catch-up/" />
+  <link rel="alternate" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/index.xml" type="application/rss+xml" title="Flowerpot of Shards">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/css/highlight.min.css" /><link rel="stylesheet" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://seungkileesmu.github.io/Flowerpot-of-Shards/">Flowerpot of Shards</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About" href="/Flowerpot-of-Shards/%eb%b8%94%eb%a1%9c%ea%b7%b8%ec%97%90%eb%8c%80%ed%95%b4%ec%84%9c">About</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Economics</a>
+              <div class="navlinks-children">
+                
+                  <a href="/Flowerpot-of-Shards/post/Economics/ECO4376ResearchPaper.pdf">Critique on Wage-led Growth</a>
+                
+                  <a href="https://github.com/SeungKiLeeSMU/ECO4376/blob/master/GDP%20Catch%20Up.ipynb">China&#39;s Real GDP Catch</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Programming</a>
+              <div class="navlinks-children">
+                
+                  <a href="/Flowerpot-of-Shards/post/programming/git-commands">Github Commandline Resource</a>
+                
+                  <a href="/Flowerpot-of-Shards/#">Modularity and Functional Programming</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Ficiton</a>
+              <div class="navlinks-children">
+                
+                  <a href="/Flowerpot-of-Shards/post/Fiction/Digimon/D-vine-000">D-vine</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Non-Fiction</a>
+              <div class="navlinks-children">
+                
+                  <a href="/Flowerpot-of-Shards/post/Non-Fiction/%eb%a7%88%ec%9d%8c%ec%86%8d%ec%97%90_%ec%93%b0%ec%97%ac%ec%a7%84%ea%b8%80">마음속에 쓰여진 글</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>GDP Catch Up</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Exactly How Fast will China grow?</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 23, 2017
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 6 minutes (1200 words)
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<h1 id="gdp-catch-up-brute-force-calculation">GDP Catch Up : Brute Force Calculation</h1>
+
+<p><strong>Seung Ki Lee</strong></p>
+
+<p>This is a brute force calculation to check how long it takes for China&rsquo;s RGDP per Capita estimated at fixed rate of 4% to catch up to USA&rsquo;s 2%.</p>
+
+<p>data is provided from : <a href="http://www.imf.org/external/datamapper/NGDPDPC@WEO/OEMDC/ADVEC/WEOWORLD/">http://www.imf.org/external/datamapper/NGDPDPC@WEO/OEMDC/ADVEC/WEOWORLD/</a></p>
+
+<h2 id="define-variables">Define Variables</h2>
+
+<p>$Let$</p>
+
+<p>$c<em>{0} = GDP</em>{China2017} = \$ 9,380$</p>
+
+<p>$u<em>{0} = GDP</em>{USA2017} = \$ 6,1690$</p>
+
+<p>$\bar { \partial<em>{ c } } = Growth</em>{China} = 0.04$</p>
+
+<p>$\bar { \partial<em>{ u } } = Growth</em>{USA} = 0.02$</p>
+
+<p>$c<em>{eq} = c</em>{0} \times ( 1 + \bar { \partial_{ c } } )^n$</p>
+
+<p>$u<em>{eq} = u</em>{0} \times ( 1 + \bar { \partial_{ u } } )^n$</p>
+
+<h2 id="set-up-question">Set up question</h2>
+
+<p>$Find \ n \ \mid c<em>{eq} = u</em>{eq}$</p>
+
+<h2 id="solve-for-n">Solve for n</h2>
+
+<p>$c_{eq} = 9380 \times (1.04)^n$</p>
+
+<p>$u_{eq} = 61690 \times (1.02)^n$</p>
+
+<p>${9380 \over 61690} = { (1.02)^n \over (1.04)^n }$</p>
+
+<p>$0.15205 = ( {1.02 \over 1.04} )^n$</p>
+
+<p>$log_{ ( {1.02 \over 1.04 } ) } 0.15205 = n$</p>
+
+<p>$n \approx 97$</p>
+
+<p>By rounding up from 96.999, it takes approximately 97 years for China&rsquo;s Real GDP per Capita to catch up to USA&rsquo;s</p>
+
+<h2 id="check-work-using-brute-force-method">Check Work Using Brute Force Method</h2>
+
+<p>I can represent relation between RGDP of Year n and n-1 as below :</p>
+
+<p>$c<em>{n} = c</em>{n-1} \times (1.04)$</p>
+
+<p>$u<em>{n} = u</em>{n-1} \times (1.02)$</p>
+
+<p>From this I can see that if my calculations in previous section are correct, here it should also give the same answer if I repeat the above equations of finding $c<em>{n}$ and $u</em>{n}$ for 97 years.</p>
+
+<p>Below I have implemented Python code to perform this operation 97 times. If $c<em>{97} \geq u</em>{97}$ , then I know that my solution is correct.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="c1"># Initial GDP at 2017</span>
+<span class="n">c_0</span> <span class="o">=</span> <span class="mi">9380</span>
+<span class="n">u_0</span> <span class="o">=</span> <span class="mi">61690</span>
+
+<span class="c1"># Initialize Next Year&#39;s GDP per capita as 2017&#39;s</span>
+<span class="n">c_n</span> <span class="o">=</span> <span class="n">c_0</span>
+<span class="n">u_n</span> <span class="o">=</span> <span class="n">u_0</span>
+
+<span class="c1"># for 97 years</span>
+<span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">97</span><span class="p">):</span>
+    
+<span class="c1"># Code in the above relation and loop 97 times</span>
+    <span class="n">c_n</span> <span class="o">=</span> <span class="n">c_n</span><span class="o">*</span><span class="p">(</span><span class="mf">1.04</span><span class="p">)</span>
+    <span class="n">u_n</span> <span class="o">=</span> <span class="n">u_n</span><span class="o">*</span><span class="p">(</span><span class="mf">1.02</span><span class="p">)</span>
+    
+<span class="c1">#     Conditional for Formating print</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;c_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; :  $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">c_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&#34;   |  &#34;</span> <span class="o">+</span> <span class="s2">&#34;u_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34;  : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">u_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">)))</span>
+    <span class="k">elif</span> <span class="p">(</span><span class="n">y</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">):</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;c_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; :  $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">c_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&#34;  |  &#34;</span> <span class="o">+</span> <span class="s2">&#34;u_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34;  : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">u_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">)))</span>        
+    <span class="k">elif</span> <span class="p">(</span><span class="n">y</span> <span class="o">&gt;</span> <span class="mi">59</span><span class="p">):</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;c_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">c_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&#34; |  &#34;</span> <span class="o">+</span> <span class="s2">&#34;u_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">u_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">)))</span>
+    <span class="k">else</span> <span class="p">:</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;c_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">c_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&#34;  |  &#34;</span> <span class="o">+</span> <span class="s2">&#34;u_{&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34;}&#34;</span> <span class="o">+</span> <span class="s2">&#34; : $&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">u_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">)))</span>
+    
+<span class="c1">#     Print when it crosses</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">c_n</span> <span class="o">-</span> <span class="n">u_n</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">):</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;------------------------------------&#34;</span><span class="p">)</span>
+        <span class="k">print</span> <span class="p">(</span><span class="s2">&#34;$&#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">c_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">))</span> <span class="o">+</span> <span class="s2">&#34; ≥ &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">((</span><span class="n">u_n</span><span class="o">*</span><span class="mi">100</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span><span class="p">)))</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;China&#39;s Real GDP Per Capita will cross USA&#39;s by year : &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2017</span><span class="o">+</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+        <span class="k">print</span><span class="p">(</span><span class="s2">&#34;After &#34;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&#34; years&#34;</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma">c_{1} :  $9756   |  u_{1}  : $62924
+c_{2} :  $10146  |  u_{2}  : $64183
+c_{3} :  $10552  |  u_{3}  : $65466
+c_{4} :  $10974  |  u_{4}  : $66776
+c_{5} :  $11413  |  u_{5}  : $68111
+c_{6} :  $11869  |  u_{6}  : $69473
+c_{7} :  $12344  |  u_{7}  : $70863
+c_{8} :  $12838  |  u_{8}  : $72280
+c_{9} :  $13351  |  u_{9}  : $73726
+c_{10} : $13885  |  u_{10} : $75200
+c_{11} : $14441  |  u_{11} : $76704
+c_{12} : $15018  |  u_{12} : $78238
+c_{13} : $15619  |  u_{13} : $79803
+c_{14} : $16244  |  u_{14} : $81399
+c_{15} : $16893  |  u_{15} : $83027
+c_{16} : $17569  |  u_{16} : $84688
+c_{17} : $18272  |  u_{17} : $86381
+c_{18} : $19003  |  u_{18} : $88109
+c_{19} : $19763  |  u_{19} : $89871
+c_{20} : $20553  |  u_{20} : $91669
+c_{21} : $21375  |  u_{21} : $93502
+c_{22} : $22230  |  u_{22} : $95372
+c_{23} : $23120  |  u_{23} : $97279
+c_{24} : $24044  |  u_{24} : $99225
+c_{25} : $25006  |  u_{25} : $101209
+c_{26} : $26006  |  u_{26} : $103234
+c_{27} : $27046  |  u_{27} : $105298
+c_{28} : $28128  |  u_{28} : $107404
+c_{29} : $29253  |  u_{29} : $109552
+c_{30} : $30424  |  u_{30} : $111743
+c_{31} : $31640  |  u_{31} : $113978
+c_{32} : $32906  |  u_{32} : $116258
+c_{33} : $34222  |  u_{33} : $118583
+c_{34} : $35591  |  u_{34} : $120955
+c_{35} : $37015  |  u_{35} : $123374
+c_{36} : $38495  |  u_{36} : $125841
+c_{37} : $40035  |  u_{37} : $128358
+c_{38} : $41637  |  u_{38} : $130925
+c_{39} : $43302  |  u_{39} : $133544
+c_{40} : $45034  |  u_{40} : $136214
+c_{41} : $46835  |  u_{41} : $138939
+c_{42} : $48709  |  u_{42} : $141718
+c_{43} : $50657  |  u_{43} : $144552
+c_{44} : $52683  |  u_{44} : $147443
+c_{45} : $54791  |  u_{45} : $150392
+c_{46} : $56982  |  u_{46} : $153400
+c_{47} : $59262  |  u_{47} : $156468
+c_{48} : $61632  |  u_{48} : $159597
+c_{49} : $64097  |  u_{49} : $162789
+c_{50} : $66661  |  u_{50} : $166045
+c_{51} : $69328  |  u_{51} : $169365
+c_{52} : $72101  |  u_{52} : $172753
+c_{53} : $74985  |  u_{53} : $176208
+c_{54} : $77984  |  u_{54} : $179732
+c_{55} : $81103  |  u_{55} : $183327
+c_{56} : $84348  |  u_{56} : $186993
+c_{57} : $87721  |  u_{57} : $190733
+c_{58} : $91230  |  u_{58} : $194548
+c_{59} : $94879  |  u_{59} : $198439
+c_{60} : $98675  |  u_{60} : $202407
+c_{61} : $102622 |  u_{61} : $206455
+c_{62} : $106726 |  u_{62} : $210585
+c_{63} : $110995 |  u_{63} : $214796
+c_{64} : $115435 |  u_{64} : $219092
+c_{65} : $120053 |  u_{65} : $223474
+c_{66} : $124855 |  u_{66} : $227943
+c_{67} : $129849 |  u_{67} : $232502
+c_{68} : $135043 |  u_{68} : $237152
+c_{69} : $140445 |  u_{69} : $241895
+c_{70} : $146062 |  u_{70} : $246733
+c_{71} : $151905 |  u_{71} : $251668
+c_{72} : $157981 |  u_{72} : $256701
+c_{73} : $164300 |  u_{73} : $261835
+c_{74} : $170872 |  u_{74} : $267072
+c_{75} : $177707 |  u_{75} : $272413
+c_{76} : $184815 |  u_{76} : $277862
+c_{77} : $192208 |  u_{77} : $283419
+c_{78} : $199896 |  u_{78} : $289087
+c_{79} : $207892 |  u_{79} : $294869
+c_{80} : $216208 |  u_{80} : $300766
+c_{81} : $224856 |  u_{81} : $306782
+c_{82} : $233850 |  u_{82} : $312917
+c_{83} : $243204 |  u_{83} : $319176
+c_{84} : $252932 |  u_{84} : $325559
+c_{85} : $263050 |  u_{85} : $332070
+c_{86} : $273571 |  u_{86} : $338712
+c_{87} : $284514 |  u_{87} : $345486
+c_{88} : $295895 |  u_{88} : $352396
+c_{89} : $307731 |  u_{89} : $359444
+c_{90} : $320040 |  u_{90} : $366632
+c_{91} : $332841 |  u_{91} : $373965
+c_{92} : $346155 |  u_{92} : $381444
+c_{93} : $360001 |  u_{93} : $389073
+c_{94} : $374401 |  u_{94} : $396855
+c_{95} : $389377 |  u_{95} : $404792
+c_{96} : $404952 |  u_{96} : $412888
+c_{97} : $421150 |  u_{97} : $421145
+------------------------------------
+$421150 ≥ 421145
+China&#39;s Real GDP Per Capita will cross USA&#39;s by year : 2114
+After 97 years</pre></div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://seungkileesmu.github.io/Flowerpot-of-Shards//tags/growth-theory/">growth theory</a>&nbsp;
+            
+              <a href="https://seungkileesmu.github.io/Flowerpot-of-Shards//tags/economics/">economics</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <ul class="list-inline footer-links">
+                
+
+
+<li>
+    <a href="//twitter.com/share?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f&amp;text=GDP%20Catch%20Up&amp;via="
+       target="_blank" alt="" title="Share on Twitter">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//plus.google.com/share?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f" target="_blank" title="Share on Google Plus">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//reddit.com/submit?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f&amp;title=GDP%20Catch%20Up" target="_blank" title="Share on Reddit">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f&amp;title=GDP%20Catch%20Up" target="_blank"
+       title="Share on LinkedIn">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f&amp;title=GDP%20Catch%20Up" target="_blank"
+       title="Share on StumbleUpon">
+        <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stumbleupon fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+
+<li>
+    <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fseungkileesmu.github.io%2fFlowerpot-of-Shards%2fpost%2feconomics%2fgdp-catch-up%2f&amp;description=GDP%20Catch%20Up" target="_blank"
+       title="Share on Pinterest">
+         <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+              </span>
+    </a>
+</li>
+
+              </ul>
+            </section>
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://seungkileesmu.github.io/Flowerpot-of-Shards/post/programming/git-commands/" data-toggle="tooltip" data-placement="top" title="Git Commandline Resources">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:seungkil@smu.edu" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/Seung%20Ki%20Lee" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/SeungKiLeeSMU" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/SeungKiLeeSMU" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            
+            <a href="https://seungkileesmu.github.io/Flowerpot-of-Shards/index.xml" title="RSS">
+            
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://SeungKiLeeSMU.github.io">SeungKi Lee</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2017
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://seungkileesmu.github.io/Flowerpot-of-Shards/">Flowerpot of Shards</a>
+          
+        </p>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://seungkileesmu.github.io/Flowerpot-of-Shards/js/main.js"></script>
+<script src="https://seungkileesmu.github.io/Flowerpot-of-Shards/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://seungkileesmu.github.io/Flowerpot-of-Shards/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+
