@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/post/programming/git-commands/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/post/non-ficiton/on-ffp/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/git/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/korean/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/post/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/programming/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/soccer/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://SeungKiLeeSMU.github.io/flowerpot-of-shards/tags/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
